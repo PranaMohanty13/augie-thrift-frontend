@@ -1,46 +1,43 @@
-# Getting Started with Create React App
+Contributing to the Augie Thrift Frontend
+Welcome to the Augie Thrift Frontend repository! Follow these steps to get started and contribute to the frontend project.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Steps for Contributing:
 
-## Available Scripts
+1. Accept the GitHub Invitation
+You will receive an invitation to join the frontend repository.
+Accept the invitation via the email or GitHub notification.
 
-In the project directory, you can run:
+2. Set Up Your Local Environment
+Clone the Repository:
+Clone the frontend repository to your local machine using the following command: git clone https://github.com/username/augie-thrift-frontend.git
 
-### `npm start`
+Navigate into the directory after cloning using: cd augie-thrift-frontend
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Install Dependencies:
+Install the required dependencies by running: npm install
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+3. Run the Frontend Locally
+After installing the dependencies, run the frontend: npm start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This will start the frontend on http://localhost:3000.
 
-### `npm run build`
+4. Create a New Branch
+Before making any changes, create a new branch to work on: git checkout -b feature/branch-name
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+6. Make Your Changes
+Implement your feature or fix on the branch you just created.
+Be sure to follow any coding standards and project guidelines.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+7. Commit and Push Your Changes
+After making your changes, commit them with a descriptive message: git add .
+git commit -m "Description of the changes you made"
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Push the changes to the repository: git push origin feature/branch-name
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+7. Create a Pull Request
+Once your changes are pushed, go to the repository on GitHub.
+Open a pull request (PR) from your branch to the main branch.
+Include a description of your changes, what they do, and any issues they resolve.
+8. Review and Merge
+Once the pull request is reviewed and approved, it will be merged into the main branch.
